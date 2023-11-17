@@ -6,5 +6,5 @@ const UserSchema = new mongoose.Schema({
     password: String
 })
 
-const UserModel = mongoose.model("user",UserSchema)
+const UserModel = mongoose.model("satya",UserSchema)
 module.exports = UserModel
